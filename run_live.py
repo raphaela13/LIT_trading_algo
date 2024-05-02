@@ -33,7 +33,7 @@ while (7 <= datetime.now().hour <= 11):
 
     # collecting asia range for each pairs at 7am
 
-    if (datetime.now().hour == 7) & (datetime.now().minute == 33):
+    if (datetime.now().hour == 7) & (10 <= datetime.now().minute <= 15):
         AR_EURUSD[1] = collect_Asia_Range(AR_EURUSD[0])
         AR_GBPUSD[1] = collect_Asia_Range(AR_GBPUSD[0])
         AR_USDJPY[1] = collect_Asia_Range(AR_USDJPY[0])

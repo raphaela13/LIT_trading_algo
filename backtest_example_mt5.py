@@ -16,5 +16,6 @@ speed_factor = 1
 start = datetime(2024, 4, 1)
 end = datetime(2024, 4, 27)
 
+print(backtest(pair, start, end, rr, buffer, speed_factor))
 print(backtest_asia_range_graph(pair, start, end, rr, buffer, speed_factor))
 

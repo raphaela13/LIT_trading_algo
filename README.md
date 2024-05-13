@@ -21,9 +21,9 @@ Backtesting
 Package allowing to execute the algorithm on a live Metatrader 5 account, as well as backtesting the strategy on historical data.
 
 ## Requirements when running Metatrader 5 for the first time
-Login manually to the trading account using the following:
-login = 51711633
-password = uy5R2ie5!Z1$um
+Login manually to the trading account using the following: <br />
+login = 51711633 <br />
+password = uy5R2ie5!Z1$um <br />
 server = ICMarketsSC-Demo
 
 Disable Enable Algo Trading (In the maint tab, should have a red pause button from installing MT5, it should switch to a green play button when enabled)

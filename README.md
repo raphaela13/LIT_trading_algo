@@ -13,6 +13,10 @@ How can the Liquidity Inducement Theorem (LIT) be effectively implemented for bo
 ## to import the package: 
 from LIT_trading_algo import *
 
+For the first usage, need to manually install the following packages:
+MetaTrader5
+Backtesting
+
 ## Description:
 Package allowing to execute the algorithm on a live Metatrader 5 account, as well as backtesting the strategy on historical data.
 

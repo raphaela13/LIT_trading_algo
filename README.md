@@ -21,6 +21,7 @@ Backtesting
 Package allowing to execute the algorithm on a live Metatrader 5 account, as well as backtesting the strategy on historical data.
 
 ## Requirements when running Metatrader 5 for the first time
+Install metatrader 5 from the file icmarketssc5setup.exe <br />
 Login manually to the trading account using the following: <br />
 login = 51711633 <br />
 password = uy5R2ie5!Z1$um <br />

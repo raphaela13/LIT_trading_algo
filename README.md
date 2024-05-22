@@ -31,6 +31,8 @@ Disable Enable Algo Trading (In the maint tab, should have a red pause button fr
 
 ## Main code to run the live algorithm, example for EURUSD: 
 
+live 247.py run the live trading code non stop
+
 ```python
 
 initialize_mt()
@@ -41,7 +43,7 @@ while (7 <= datetime.now().hour <= 11):
   if (datetime.now().hour == 11) & (datetime.now().minute == 59):
     AR_EURUSD = reset_variables('EURUSD')
       
-  if (datetime.now().hour == 7) & (datetime.now().minute == 15):
+  if (datetime.now().hour == 7) & (10 <= datetime.now().minute <= 15):
       AR_EURUSD[1] = collect_Asia_Range(AR_EURUSD[0])
       
     # fill in the last 4 desired arguments for each pair: rr, buffer, speed_factor, risk

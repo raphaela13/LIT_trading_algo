@@ -23,8 +23,8 @@ Package allowing to execute the algorithm on a live Metatrader 5 account, as wel
 ## Requirements when running Metatrader 5 for the first time
 Install metatrader 5 from the file icmarketssc5setup.exe <br />
 Login manually to the trading account using the following: <br />
-login = 51711633 <br />
-password = uy5R2ie5!Z1$um <br />
+login = 51848565 <br />
+password = 514A!u$aEA2@Nr <br />
 server = ICMarketsSC-Demo
 
 Disable Enable Algo Trading (In the maint tab, should have a red pause button from installing MT5, it should switch to a green play button when enabled)

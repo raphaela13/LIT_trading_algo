@@ -109,8 +109,8 @@ def speed(df, num_candle, num_candle_speed, speed_factor):
 def initialize_mt():
     try:
 
-        login = 51711633
-        password = 'uy5R2ie5!Z1$um'
+        login = 51848565
+        password = '514A!u$aEA2@Nr'
         server = 'ICMarketsSC-Demo'
 
         mt.initialize()
